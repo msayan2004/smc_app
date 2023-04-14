@@ -1,0 +1,31 @@
+button.css-1x8cf1d.edgvbvh10
+{ background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+        margin: 10px;
+        padding: 10px 35px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #3936bb;
+        border-radius: 10px;
+        display: block;
+}
+
+      .css-1x8cf1d.edgvbvh10:hover 
+      {
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+ }
+span.css-10trblm.e16nr0p30
+{font-family: Helvetica;
+        font-size: 32px;
+        line-height: 1.5;
+        color: #ffffff;
+        text-align: justify;
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+        text-shadow: 0px 0px 2px rgba(10, 19, 185, 0.915);
+}
+
