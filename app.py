@@ -12,6 +12,17 @@ ps = PorterStemmer()
 
 
 st.set_page_config(page_title='Spam Email Detector', page_icon=':email:')
+
+hide_menu="""
+<style>
+#MainMenu{
+    visibility:hidden;
+}
+footer{
+    visibility:hidden;
+}
+</style>
+"""
   
 page_bg_style="""
 <style>
@@ -23,9 +34,11 @@ background-image: linear-gradient(180deg, #0093E9 2%, #80D0C7 58%);
     background-color: rgba(0, 0, 0, 0);
 }
 
+
 </style>
 """
 st.markdown(page_bg_style, unsafe_allow_html=True)
+st.markdown(hide_menu, unsafe_allow_html=True)
 
 with open("design.css") as source_des:
     st.markdown(f"<style>{source_des.read()}</style>",unsafe_allow_html=True)
