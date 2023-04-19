@@ -80,7 +80,7 @@ input_mail = st.text_area(label,placeholder="Enter your mail here")
 
 
 
-if st.button('Predict'):
+if st.button('Classify'):
 
     # 1. preprocess
     transformed_mail = transform_text(input_mail)
