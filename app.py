@@ -71,13 +71,20 @@ def transform_text(text):
 tfidf = pickle.load(open('vectorizer.pkl','rb'))
 model = pickle.load(open('model.pkl','rb'))
 
-    
-
-st.title("Spam Email Classifier")
+st.markdown("""
+<style>
+.big-font {
+    text-align: center;
+    font-size:50px !important;
+    color: white;
+}
+</style>
+""", unsafe_allow_html=True)
+st.markdown('<div class="big-font"><b>Email Classifier</b></div>', unsafe_allow_html=True)
+#st.title("Email Classifier")
 st.subheader("")
 label=" "
 input_mail = st.text_area(label,placeholder="Enter your mail here")
-
 
 
 if st.button('Classify'):
