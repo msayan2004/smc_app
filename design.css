@@ -18,14 +18,17 @@ button.css-1x8cf1d.edgvbvh10
         color: #fff;
         text-decoration: none;
  }
-span.css-10trblm.e16nr0p30
-{font-family: Helvetica;
-        font-size: 32px;
-        line-height: 1.5;
+ div.css-1629p8f.e16nr0p31>h2
+{font-family: "Source Sans Pro", sans-serif;
+        font-size: 34px !important;
+        line-height: 1;
         color: #ffffff;
-        text-align: justify;
+        border: 3px solid rgba(10, 59, 151, 0.505);
+        border-radius: 10px;
+        margin: 10px;
+        display: block;
+        text-align: center;
         letter-spacing: 0.5px;
         word-spacing: 1px;
-        text-shadow: 0px 0px 2px rgba(10, 19, 185, 0.915);
+        text-shadow: #1A2980 1px 0.5px ;
 }
-
