@@ -39,7 +39,7 @@ background-image: linear-gradient(180deg, #0093E9 2%, #80D0C7 58%);
 """
 css = """
 <style>
-    button.css-1x8cf1d.edgvbvh10
+    button.css-1n543e5.edgvbvh10
 { background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
         margin: 10px;
         padding: 10px 35px;
@@ -53,7 +53,7 @@ css = """
         display: block;
 }
 
-      .css-1x8cf1d.edgvbvh10:hover 
+      .css-1n543e5.edgvbvh10:hover 
       {
         background-position: right center;
         color: #fff;
