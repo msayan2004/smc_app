@@ -37,11 +37,49 @@ background-image: linear-gradient(180deg, #0093E9 2%, #80D0C7 58%);
 
 </style>
 """
+css = """
+<style>
+    button.css-1x8cf1d.edgvbvh10
+{ background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+        margin: 10px;
+        padding: 10px 35px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #3936bb;
+        border-radius: 10px;
+        display: block;
+}
+
+    .css-1x8cf1d.edgvbvh10:hover 
+      {
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+ }
+ 
+div.css-1629p8f.e16nr0p31>h2
+{font-family: "Source Sans Pro", sans-serif;
+        font-size: 34px !important;
+        line-height: 1;
+        color: #ffffff;
+        border: 3px solid rgba(10, 59, 151, 0.505);
+        border-radius: 10px;
+        margin: 10px;
+        display: block;
+        text-align: center;
+        letter-spacing: 0.5px;
+        word-spacing: 1px;
+        text-shadow: #1A2980 1px 0.5px ;
+}
+</style>
+"""
+
 st.markdown(page_bg_style, unsafe_allow_html=True)
 st.markdown(hide_menu, unsafe_allow_html=True)
-
-with open("design.css") as source_des:
-    st.markdown(f"<style>{source_des.read()}</style>",unsafe_allow_html=True)
+st.markdown(css, unsafe_allow_html=True)
     
     
 def transform_text(text):
@@ -81,7 +119,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 st.markdown('<div class="big-font"><b>Email Classifier</b></div>', unsafe_allow_html=True)
-#st.title("Email Classifier")
 st.subheader("")
 label=" "
 input_mail = st.text_area(label,placeholder="Enter your mail here")
